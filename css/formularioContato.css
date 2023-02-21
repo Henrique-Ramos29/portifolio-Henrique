@@ -1,0 +1,91 @@
+.formcontato {
+    margin-top: 40px;
+}
+
+.formcontato__contacto {
+    text-align: center;
+    display: flex;
+}
+
+.formcontato--esquerda {
+    display: flex;
+}
+
+.formcontato__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px;
+}
+
+.formcontato__input {
+    display: flex;
+    flex-direction: column;
+    width: 656px;
+    height: 56px;
+}
+
+.formcontato__textarea {
+    width: 656px;
+    height: 133px;
+}
+
+.formcontato__botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 165px;
+    height: 51px;
+ }
+ 
+ .formcontato__img {
+    margin: 30px;
+ }
+
+@media (max-width: 768px) {
+    .formcontato {
+        margin-top: 40px;
+    }
+    .formcontato__contacto {
+    flex-direction: column;
+
+    }
+    .formcontato--esquerda {
+        display: none;
+    }
+}
+
+@media (max-width: 414px) {
+    .formcontato__text {
+        align-items: center;
+
+    }
+
+    .formcontato__input {
+        display: block;
+        margin: 18px 98px -15px;
+        padding: 0px 89px;
+        text-align: center;
+        width: 18%;
+    }
+
+    .formcontato__textarea {
+        width: 247px;
+        margin-left: 68px;
+        margin-top: 18px;
+    }
+    .formcontato__botao {
+        width: 250px;
+        margin-left: 97px;
+        margin-top: 18px;
+    
+    }
+    .formcontato__form {
+        margin-right: 77px;
+
+    }
+}

@@ -1,0 +1,70 @@
+
+.academic__title {
+    text-align: center;
+    margin-top: 6rem
+}
+
+.academic__courses__list--funcionado {
+    align-items: center;
+   
+}
+
+.academic__courses__item__img--deletado1 {
+    display: none;
+}
+
+.academic__courses__item__img--deletado2 {
+    display: none;
+}
+
+.academic__courses__item__img {
+   text-align: center;
+   margin-left: -64px;
+}
+
+.academic__courses__item__title {
+    text-align: center;
+    margin-right: 60px;
+
+}
+
+.academic__courses__item__subtitle {
+    text-align: center;
+    margin-right: 60px;
+}
+
+@media (max-width: 768px) {
+
+       .academic__courses__list--funcionado{
+        margin-left: 100px;
+
+    }
+       .academic__courses {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 100px;
+        
+       }
+
+       .academic__courses__item__img {
+         align-items: center;
+       }
+}
+
+@media (max-width: 414px) {
+
+     .academic__courses__list--funcionado {
+        margin-left: 129px;
+        margin-right: -79px;
+     }
+
+     .academic__title {
+        text-align: center;
+        margin-right: 6px;
+     }
+     
+     .academic__courses {
+        align-items: stretch;
+        margin-left: -100px;
+}
+}

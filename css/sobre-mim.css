@@ -1,0 +1,27 @@
+.about {
+    margin-top: 2rem;
+}
+.about__container {
+    padding-left: 5rem;
+    padding-right: 19rem;
+}
+
+@media (max-width: 768px) {
+    .about__container {
+        padding-right: 82px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .about__imagem {
+        margin-left: 16px;
+    }
+    .about__title {
+        font-size: 18px;
+    }
+    .about__paragraph {
+        font-size: 15px;
+    }
+}
