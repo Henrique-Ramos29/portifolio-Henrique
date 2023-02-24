@@ -27,7 +27,8 @@
 
 @media (max-width: 768px) {
     .skills__title {
-       text-align: center;
+        text-align: initial;
+        margin-left: 80px;
     }
     .skills__line {
         padding: inherit;
@@ -36,6 +37,7 @@
         margin-left: 2px;
 
     }
+    
 }
 
 @media (max-width: 414px) {
@@ -50,7 +52,12 @@
         margin-right: 80px;
         justify-content: space-between;
 }
-       
+
+    .skills__title {
+        text-align: center;
+        margin-left: 0px;
+        font-size: 20px;
+    } 
     }
     .skills__img--css {
         margin-inline: 13px;

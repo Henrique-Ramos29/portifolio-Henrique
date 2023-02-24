@@ -7,7 +7,7 @@ coloque nas sessões indicadas*/
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    
-   --cor-azulfundo2: #fff;
+   
     --cor-de-fundo: #fff;
    --cor-de-link: #000;
    --cinza-do-cabecalho: #1C1C1C;
@@ -32,8 +32,8 @@ a {
 }
 
 a:hover {
-    color: #000;
-    background: #fff;
+    color: var(--cinza-do-cabecalho)                ;
+    background: var(--branco);
     border-radius: 2rem;
     padding: 9px;
 }
@@ -46,12 +46,12 @@ button {
 
 button:hover {
     color: white;
-    background-color: #000;
+    background-color: var(--cinza-do-cabecalho);
 }
 
 .experiencia__botao--demo > button:hover {
-    color: #000;
-    background: #fff;
+    color: var(--cinza-do-cabecalho);
+    background: var(--cinza-do-cabecalho);
 }
 
 

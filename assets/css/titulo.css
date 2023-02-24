@@ -9,18 +9,23 @@
 }
 
 .title__container {
-    text-align: center;
+    text-align: initial;
     padding-left: 5rem;
     padding-right: 5rem;
+    margin-right: 10rem;
+
 }
 
 .title__bio {
+    text-align: initial;
     margin-top: 110px;
     color: white;
 }
 
 .title__subsection {
     color: white;
+    text-align: initial;
+    font-size: 1rem;
 }
 
 .title__caixa {
@@ -39,50 +44,69 @@
 
 .title__network__item {
    text-decoration: black;
+   margin-left: -137px;
 }
 
 @media (max-width: 768px) {
-    .title__div {
-        flex-direction: column;
-    }
+     
+    
     .title__profile {
-        padding-left: 171px;
-        padding-right: 192px
+        height: 13rem;
+        margin-block-start: 63px;
+        margin-left: -187px;
+        margin-top: -15px;
+        padding: 17px;
+        margin-right: 22px;
+        
     }
     .title__container {
-        text-align: center;
-        padding-left: 5rem;
-        padding-right: 5rem;
-        margin-block-start: -100px
-    }
+        text-align: initial;
+        margin-right: 50px;
+        padding-right: 4rem;
+        margin-top: -70px
+  }
+  .title__subsection{
+    font-size: 13px;
+  }
     
 }
 
 @media (max-width: 414px) {
+    .title__container {
+        text-align: center;
+        padding: initial;
+        margin-inline: -62px;
+    }
     .title__div {
         display: flexbox;
         flex-direction: column;
     }
     
     .title__profile {
-        margin: -95px;
-        margin-top: -15px;
-        margin-left: -83px
+        height: 179px;
+        margin: 72px;
+        margin-top: -25px;
+        margin-left: 84px;
+        margin-right: 91px
     }
     .title__bio {
-        font-size: 12px;
-        margin-top: 188px;
-        margin-right: 9px;
+        font-size: 14px;
+        margin-left: 0;
+        text-align: center;
+        margin-right: 2px;
+        margin-top: -7px;
     }
     .title__subsection {
-        font-size: 7px;
-        margin-left: -8px;
+        font-size: 9px;
+        margin-left: 128px;
     } 
     .title__caixa {
         display: flex;
         justify-content: space-around;
-        padding-left: 64px;
+        padding-left: 112px;
         font-size: 10px;
+        margin-left: 48px;
+        margin-right: -40px;
     }
 }
 

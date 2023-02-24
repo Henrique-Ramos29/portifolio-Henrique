@@ -35,8 +35,8 @@
 
 @media (max-width: 768px) {
 
-       .academic__courses__list--funcionado{
-        margin-left: 100px;
+       .academic__courses__list--funcionado {
+        margin-right: 244px;
 
     }
        .academic__courses {
@@ -49,6 +49,10 @@
        .academic__courses__item__img {
          align-items: center;
        }
+       .academic__title {
+        text-align: initial;
+        margin-left: 80px;
+}
 }
 
 @media (max-width: 414px) {
@@ -60,11 +64,12 @@
 
      .academic__title {
         text-align: center;
-        margin-right: 6px;
+        margin-right: 100px;
+        font-size: 20px
      }
      
      .academic__courses {
         align-items: stretch;
         margin-left: -100px;
-}
+     }
 }

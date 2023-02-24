@@ -23,9 +23,19 @@
     flex-direction: column;
     width: 656px;
     height: 56px;
+    font-family: 'Raleway';
+    border-radius: 10px;
+    border-color: var(--cinza-do-cabecalho);
 }
 
 .formcontato__textarea {
+   
+    display: flex;
+    flex-direction: column;
+  
+    font-family: 'Raleway';
+    border-radius: 10px;
+    border-color: var(--cinza-do-cabecalho);
     width: 656px;
     height: 133px;
 }
@@ -67,7 +77,7 @@
 
     .formcontato__input {
         display: block;
-        margin: 18px 98px -15px;
+        margin: 24px 98px -15px;
         padding: 0px 89px;
         text-align: center;
         width: 18%;
@@ -75,9 +85,11 @@
 
     .formcontato__textarea {
         width: 247px;
-        margin-left: 68px;
-        margin-top: 18px;
+        margin-left: 96px;
+        margin-top: 21px;
+        border-color: var(--cinza-do-cabecalho);
     }
+
     .formcontato__botao {
         width: 250px;
         margin-left: 97px;

@@ -37,7 +37,8 @@
         margin-top: 54px;
     }
     .hobbies__title {
-       text-align: center;
+       text-align: initial;
+       margin-left: 80px;
     }
     
 }
@@ -45,7 +46,9 @@
 @media (max-width: 414px) {
 
     .hobbies__title {
-        margin-top: -64px
+        text-align: center;
+        margin-left: 9px;
+        font-size: 20px;
     }
 
     .hobbies__line {
