@@ -32,6 +32,7 @@
    
     display: flex;
     flex-direction: column;
+    text-align: center;
   
     font-family: 'Raleway';
     border-radius: 10px;
@@ -72,22 +73,23 @@
 @media (max-width: 414px) {
     .formcontato__text {
         align-items: center;
+        margin-right: -24px;
+}
 
     }
 
     .formcontato__input {
         display: block;
-        margin: 24px 98px -15px;
+        margin: 23px 48px -15px;
         padding: 0px 89px;
         text-align: center;
-        width: 18%;
+        width: 45%;
     }
 
     .formcontato__textarea {
-        width: 247px;
-        margin-left: 96px;
-        margin-top: 21px;
-        border-color: var(--cinza-do-cabecalho);
+        width: 359px;
+        margin-left: 50px;
+        margin-top: 28px;
     }
 
     .formcontato__botao {
@@ -100,4 +102,17 @@
         margin-right: 77px;
 
     }
-}
+
+    .formcontato__title {
+        margin-right: 32px;
+
+    }
+
+    h3.formcontato__subtext1 {
+        margin-right: 41px;
+        font-size: 24px;
+    }
+
+    .formcontato__subtext2 {
+        margin-right: 43px;
+    }
