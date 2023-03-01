@@ -22,7 +22,7 @@
     <!-- Fonte do Projeto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     
-    <title>Portifólio Pessoal</title>
+    <title>Portifólio Henrique Ramos</title>
 </head>
 <body>
     <!-- Sessão de Menu  -->
@@ -245,11 +245,17 @@
                     <h2 class="formcontato__title">Contato</h2>
                     <h3 class="formcontato__subtext1">Quer entrar em contato comigo?</h3>
                     <p class="formcontato__subtext2">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </p>
-                    <form class="formcontato__form">
-                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
-                        <input class="formcontato__input" type="email" id="email" placeholder="Email">
-                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                    <form class="formcontato__form" id="form" >
+                        
+                        <input class="formcontato__input" type="name" id="nome" placeholder="Nome" maxlength="50" required>
+                        <p><span id="spam">0</span>/50 caracteres</p>
+                        
+                        <input class="formcontato__input" type="email" id="email" placeholder="Email" required>
+                        
+                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto" maxlength="50" required>
+                        <p><span class="spams"id="spam">0</span>/50 caracteres</p>
+                        
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
                         <button class="formcontato__botao">Enviar mensagem</button>
                     </form>
                 </div>

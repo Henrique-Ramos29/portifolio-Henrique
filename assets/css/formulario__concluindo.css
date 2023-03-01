@@ -1,0 +1,26 @@
+.fundo__pagina {
+    background-color: var(--cinza-do-cabecalho);
+    background-repeat: no-repeat;
+}
+
+.cadastro-cabecalho__logo {
+    width: 240px;
+}
+
+.cadastro-cabecalho {
+    text-align: center;
+    margin-top: 84px;
+    color: var(--branco);
+}
+
+.cadastro-cartao__titulo {
+    text-align: center  ;
+    font-size: 60px;
+}
+
+.cadastro-cartao {
+    text-align: center;
+    padding: 17px;
+    font-size: 25px;
+
+}
