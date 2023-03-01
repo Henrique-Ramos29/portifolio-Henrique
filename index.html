@@ -248,15 +248,17 @@
                     <form class="formcontato__form" id="form" >
                         
                         <input class="formcontato__input" type="name" id="nome" placeholder="Nome" maxlength="50" required>
-                        <p><span id="spam">0</span>/50 caracteres</p>
+                        <p class="fonte__span"><span class="spam">0</span>/50 (maxímo de caracteres)</p>
                         
                         <input class="formcontato__input" type="email" id="email" placeholder="Email" required>
                         
-                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto" maxlength="50" required>
-                        <p><span class="spams"id="spam">0</span>/50 caracteres</p>
+                        <input class="formcontato__input" type="text" id="nome2" placeholder="Assunto" maxlength="50" required> 
+                        <p class="fonte__span"><span class="spam2">0</span>/50 (maxímo de caracteres)</p>
                         
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
-                        <button class="formcontato__botao">Enviar mensagem</button>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem" maxlength="200" required></textarea>
+                        <p class="fonte__span"><span class="spam3">0</span>/200 (maxímo de caracteres)</p>
+
+                        <button class="formcontato__botao"><a id="a" href="paginaFormularioConcluindo.html">Enviar mensagem</a></button>
                     </form>
                 </div>
             </div>

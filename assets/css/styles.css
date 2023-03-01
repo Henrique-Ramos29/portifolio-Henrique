@@ -13,6 +13,7 @@ coloque nas sessões indicadas*/
    --cinza-do-cabecalho: #1C1C1C;
    --branco: #fff;
    --preto-escuro: #1C1C1C;
+   --vermelho: #ff0000;
 }
 
 body {
@@ -53,6 +54,18 @@ button:hover {
     color: var(--cinza-do-cabecalho);
     background: var(--cinza-do-cabecalho);
 }
+
+span {
+    
+    color: var(--vermelho);
+    font-size: 14px;
+    margin-left: 35px;
+}
+.fonte__span {
+    font-size: 13px;
+    margin-top: 17px;
+}
+
 
 
 
