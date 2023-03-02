@@ -8,7 +8,6 @@ const counter2 = document.querySelector('.spam2');
 const textArea3 = document.querySelector('#mensagem');
 const counter3 = document.querySelector('.spam3');
 
-const element = document.getElementById("#botao");
 
 
   nameInput.addEventListener('input', () => {
