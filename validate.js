@@ -8,6 +8,8 @@ const counter2 = document.querySelector('.spam2');
 const textArea3 = document.querySelector('#mensagem');
 const counter3 = document.querySelector('.spam3');
 
+const element = document.getElementById("#botao");
+
 
   nameInput.addEventListener('input', () => {
 
@@ -37,4 +39,5 @@ textArea3.addEventListener('input', () => {
         counter3.innerText = 'Max';
         textArea3.value = textArea3.value.substr(0, 150);
     }
+
 })

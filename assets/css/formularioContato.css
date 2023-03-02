@@ -53,6 +53,12 @@
     width: 165px;
     height: 51px;
  }
+
+button.formcontato__botao {
+    width: 11rem;
+    background: var(--cinza-do-cabecalho);
+    margin-left: 146px;
+}
  
  .formcontato__img {
     margin: 30px;
