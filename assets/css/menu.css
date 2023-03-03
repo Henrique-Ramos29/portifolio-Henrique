@@ -1,73 +1,66 @@
 .menu {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 5rem;
-    padding-right: 8rem;
-    background: var(--preto-escuro)
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 8rem;
+  background: var(--preto-escuro);
 }
 
 .menu__title {
-    color: white;
-    margin-top: 5px;
+  color: white;
+  margin-top: 5px;
 }
 
 .menu__list {
-    display: flex;
-    margin-top: 33px;
+  display: flex;
+  margin-top: 33px;
 }
 
 .menu__list__item {
-    margin-right: 1.25rem;
-    text-decoration: none;
-    text-transform: lowercase;
+  margin-right: 1.25rem;
+  text-decoration: none;
+  text-transform: lowercase;
 }
 
 .menu__list__item__contato {
-    display: flex;
-    margin-block-start: -1px;
-    color: var(--branco);
+  display: flex;
+  margin-block-start: -1px;
+  color: var(--branco);
 }
 
 @media (max-width: 768px) {
-    section.menu {
-        flex-direction: column;
-    }
-    .menu__title {
-        font-size: 2rem;
-    }
-    .menu__list {
-        font-size: 20px;
-        
-    }
-    .menu__list__item__contato {
-        flex-direction: column;
-        color: white;
-        margin-left: -422px;
-        margin-top: 43px;
-        font-size: 21px;
-    }
-
+  section.menu {
+    flex-direction: column;
+  }
+  .menu__title {
+    font-size: 2rem;
+  }
+  .menu__list {
+    font-size: 20px;
+  }
+  .menu__list__item__contato {
+    flex-direction: column;
+    color: white;
+    margin-left: -422px;
+    margin-top: 43px;
+    font-size: 21px;
+  }
 }
 
 @media (max-width: 414px) {
-    
-    header {
-        margin-top: 17px;
-        padding-left: 38px;
-     
-    } 
+  header {
+    margin-top: 17px;
+    padding-left: 38px;
+  }
 
-    .menu__title {
-        font-size: 1rem;
-        text-align: center;
-        margin: 17px;
-        margin-right: 9px;
-    }
-    .menu__list {
-        display: none;
-    }
-    
-
-    
+  .menu__title {
+    font-size: 1rem;
+    text-align: center;
+    margin: 17px;
+    margin-right: 9px;
+  }
+  .menu__list {
+    display: none;
+  }
 }

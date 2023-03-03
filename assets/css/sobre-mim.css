@@ -1,30 +1,30 @@
 .about {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 .about__container {
-    padding-left: 5rem;
-    padding-right: 19rem;
+  padding-left: 5rem;
+  padding-right: 19rem;
 }
 
 @media (max-width: 768px) {
-    .about__container {
-        font-size: 18px;
-        padding-right: 82px;
-        text-align: initial;
-    }
+  .about__container {
+    font-size: 18px;
+    padding-right: 82px;
+    text-align: initial;
+  }
 }
 
 @media (max-width: 414px) {
-    .about__imagem {
-        margin-left: 78px;
-        height: 38px;
-    }
-    .about__title {
-        text-align: center;
-        font-size: 16px;
-    }
-    .about__paragraph {
-        text-align: center;
-        font-size: 15px;
-    }
+  .about__imagem {
+    margin-left: 78px;
+    height: 38px;
+  }
+  .about__title {
+    text-align: center;
+    font-size: 16px;
+  }
+  .about__paragraph {
+    text-align: center;
+    font-size: 15px;
+  }
 }

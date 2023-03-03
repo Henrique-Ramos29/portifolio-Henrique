@@ -1,87 +1,78 @@
-
 .hobbies {
-    padding-right: 2rem;
-    margin-top: 6rem;
+  padding-right: 2rem;
+  margin-top: 6rem;
 }
 
 .hobbies__title {
-
-    margin-left: 80px;
-    margin-top: -32px;
+  margin-left: 80px;
+  margin-top: -32px;
 }
 
 .hobbies__line {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 6rem;
-    padding-right: 9rem;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6rem;
+  padding-right: 9rem;
+  text-align: center;
 }
 
 .hobbies__box {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 6px;
 
-    width: 176px;
-    height: 94px;
+  width: 176px;
+  height: 94px;
 }
 
 @media (max-width: 768px) {
-    .hobbies__line {
-        padding: inherit;
-        gap: 0rem;
-        margin: -26px;
-        margin-left: -6px;
-        margin-top: 54px;
-    }
-    .hobbies__title {
-       text-align: initial;
-       margin-left: 80px;
-    }
-    
+  .hobbies__line {
+    padding: inherit;
+    gap: 0rem;
+    margin: -26px;
+    margin-left: -6px;
+    margin-top: 54px;
+  }
+  .hobbies__title {
+    text-align: initial;
+    margin-left: 80px;
+  }
 }
 
 @media (max-width: 414px) {
+  .hobbies__title {
+    text-align: center;
+    margin-left: 9px;
+    font-size: 20px;
+  }
 
-    .hobbies__title {
-        text-align: center;
-        margin-left: 9px;
-        font-size: 20px;
-    }
+  .hobbies__line {
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 17px;
+  }
 
-    .hobbies__line {
-        flex-wrap: wrap;
-        gap: 1rem;
-        margin: 17px;
-    }
+  .hobbies__line > div {
+    display: contents;
+  }
+  .hobbies__img {
+    margin: 1px;
+    margin-left: 4px;
+  }
+  .hobbies__name {
+    font-size: 15px;
+    text-align: center;
+  }
 
-    .hobbies__line > div {
-        display: contents;
-    }
-    .hobbies__img {
-        margin: 1px;
-        margin-left: 4px
-
-    }
-    .hobbies__name {
-        font-size: 15px;
-        text-align: center;
-    }
-
-    .hobbies__img--cozinha {
-        margin-left: 10px;
-    }
-    .cozinha {
-        margin-left: 10px;
-    }
-    .hobbies__img--video-game {
-        margin-left: 11px;
-    }
-    
-
-
-
+  .hobbies__img--cozinha {
+    margin-left: 10px;
+  }
+  .cozinha {
+    margin-left: 10px;
+  }
+  .hobbies__img--video-game {
+    margin-left: 11px;
+  }
 }
